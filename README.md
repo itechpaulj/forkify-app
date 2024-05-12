@@ -26,19 +26,19 @@ npm i parcel
 - [NPM CORE JS](https://www.npmjs.com/package/core-js)
 
 ```
-	import 'core-js/stable'; //polyfilling all code support old version in js
+import 'core-js/stable'; //polyfilling all code support old version in js
 ```
 
 - [NPM Fraction](https://www.npmjs.com/package/regenerator-runtime)
 
 ```sh
-	npm i fractional
+npm i fractional
 ```
 
 - [NPM Regenerator Runtime](https://www.npmjs.com/package/regenerator-runtime)
 
 ```
-	import 'regenerator-runtime/runtime'; //polyfilling all async await for es6 for support modern new promises ajax
+import 'regenerator-runtime/runtime'; //polyfilling all async await for es6 for support modern new promises ajax
 ```
 
 
@@ -47,13 +47,13 @@ npm i parcel
 1. Get a free API Key at [Forkify API_KEY](https://forkify-api.herokuapp.com/v2)
 2. Clone the repo
 ```sh
-   git clone https://github.com/itechpaulj/forkify-app.git
+git clone https://github.com/itechpaulj/forkify-app.git
 ```
 3. Install NPM packages
 ```sh
-   npm install
+npm install
 ```
 4. Enter your API in `config.js`
 ```JS
-  const KEY = ${YOUR KEY}
+const KEY = ${YOUR KEY}
 ```
